@@ -12,5 +12,8 @@
 		"@vueuse/core": "^8.7.5",
 		"@vueuse/nuxt": "^8.7.5",
 		"nuxt": "3.0.0-rc.4"
+	},
+	"dependencies": {
+		"@heroicons/vue": "^1.0.6"
 	}
 }
