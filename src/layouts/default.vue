@@ -1,5 +1,8 @@
 <script setup lang="ts"></script>
 
 <template>
-	<div>default layout</div>
+	<div class="flex flex-col">
+		<div>default layout</div>
+		<slot />
+	</div>
 </template>
