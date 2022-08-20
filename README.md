@@ -19,7 +19,7 @@
 
 ### 🚀 Dublicate
 
--   `git clone --bare git@github.com:mihail727/nuxt-template.git`;
--   `cd ./nuxt-template.git/`;
--   `git push --mirror {your repository}`;
--   and then u can remove `nuxt-template` folder.
+-   `npx @supp/n3t {yourFolderName}`;
+-   `cd {yourFolderName}`;
+-   `yarn` or `npm install`;
+-   `yarn dev` or `npm run dev`;

@@ -1,8 +1,12 @@
 {
-	"name": "@supp/nuxt-template2",
+	"name": "@supp/n3t",
 	"description": "Nuxt 3 template for fast initial setup",
 	"bin": "./bin/cli.js",
 	"version": "1.0.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mihail727/nuxt-template.git"
+	},
 	"scripts": {
 		"build": "nuxt build",
 		"dev": "nuxt dev",

@@ -14,15 +14,17 @@ const runCommand = (command) => {
 
 const repoName = process.argv[2];
 const gitCheckoutCommand = `git clone --depth 1 https://github.com/mihail727/nuxt-template.git ${repoName}`;
-const afterInstallClearCommand = 'rm -rf .git';
+const afterInstallClearCommand = `cd ${repoName} && rm -rf .git yarn.lock bin README.md LICENSE .gitignore`;
 
-console.log(`Cloning the repository with name ${repoName}`);
+console.log(`\nCloning the repository with name ${repoName}...`);
 
 const checkedOut = runCommand(gitCheckoutCommand);
 if (!checkedOut) process.exit(-1);
 
+console.log('\nClearing files...');
+
 const cleared = runCommand(afterInstallClearCommand);
 if (!cleared) process.exit(-1);
 
-console.log('Project ready. Follow the following commands to start');
+console.log('\nProject ready. Follow the following commands to start');
 console.log(`cd ${repoName} && npm install && npm run dev`);
