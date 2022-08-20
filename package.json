@@ -1,5 +1,5 @@
 {
-	"name": "@supp/n3t",
+	"name": "@mihail727/n3t",
 	"description": "Nuxt 3 template for fast initial setup",
 	"bin": "./bin/cli.js",
 	"version": "1.0.1",

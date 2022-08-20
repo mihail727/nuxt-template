@@ -12,7 +12,7 @@ const runCommand = (command) => {
 	return true;
 };
 
-const repoName = process.argv[2];
+const repoName = process.argv[2] ?? 'nuxt-template';
 const gitCheckoutCommand = `git clone --depth 1 https://github.com/mihail727/nuxt-template.git ${repoName}`;
 const afterInstallClearCommand = `cd ${repoName} && rm -rf .git yarn.lock bin README.md LICENSE .gitignore`;
 

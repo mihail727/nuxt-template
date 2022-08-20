@@ -19,7 +19,7 @@
 
 ### 🚀 Dublicate
 
--   `npx @supp/n3t {yourFolderName}`;
--   `cd {yourFolderName}`;
+-   `npx @mihail727/n3t`;
+-   `cd nuxt-template`;
 -   `yarn` or `npm install`;
 -   `yarn dev` or `npm run dev`;
