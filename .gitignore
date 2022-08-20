@@ -3,3 +3,5 @@ build
 dist
 .nuxt
 .npmignore
+yarn.lock
+package-lock.json
