@@ -2,7 +2,7 @@
 	"name": "@mihail727/n3t",
 	"description": "Nuxt 3 template for fast initial setup",
 	"bin": "./bin/cli.js",
-	"version": "1.0.1.1",
+	"version": "1.0.2",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/mihail727/nuxt-template.git"
