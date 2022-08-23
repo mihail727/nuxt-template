@@ -5,7 +5,7 @@
 
 ---
 
-> ## Nuxt 3 project template for fast initail setup
+> ### Nuxt 3 project template for fast initail setup
 
 ---
 
@@ -16,3 +16,7 @@
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/mihail727/nuxt-template/@heroicons/vue?color=purple&style=flat-square)
 
 ---
+
+### 🚀 Dublicate
+
+-   just click `"Use this template"`;

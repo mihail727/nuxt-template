@@ -1,18 +1,10 @@
 {
-	"name": "@mihail727/n3t",
-	"description": "Nuxt 3 template for fast initial setup",
-	"bin": "./bin/cli.js",
-	"version": "1.0.2",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/mihail727/nuxt-template.git"
-	},
+	"version": "0.0.0",
 	"scripts": {
 		"build": "nuxt build",
 		"dev": "nuxt dev",
 		"generate": "nuxt generate",
-		"preview": "nuxt preview",
-		"start": "node ./build/server/index.mjs"
+		"preview": "nuxt preview"
 	},
 	"devDependencies": {
 		"@nuxtjs/tailwindcss": "^5.3.2",
