@@ -16,10 +16,3 @@
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/mihail727/nuxt-template/@heroicons/vue?color=purple&style=flat-square)
 
 ---
-
-### 🚀 Dublicate
-
--   `npx @mihail727/n3t`;
--   `cd nuxt-template`;
--   `yarn` or `npm install`;
--   `yarn dev` or `npm run dev`;
