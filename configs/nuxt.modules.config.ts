@@ -5,6 +5,6 @@ export default {
 	tailwindcss: {
 		configPath: '~~/tailwind.config.js',
 		viewer: false,
-		cssPath: '../src/assets/tailwind.css',
+		cssPath: '../src/scss/assets/tailwind.scss',
 	},
 } as NuxtConfig;
