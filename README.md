@@ -1,4 +1,4 @@
-b![Nuxt js image](https://raw.githubusercontent.com/nuxt/framework/ff924468ea22258685a37c19f64fcc694d01c959/.github/logo.svg)
+![Nuxt js image](https://raw.githubusercontent.com/nuxt/framework/ff924468ea22258685a37c19f64fcc694d01c959/.github/logo.svg)
 
 ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/mihail727/nuxt-template/dev/nuxt?color=green&style=flat-square)
 ![GitHub](https://img.shields.io/github/license/mihail727/nuxt-template?color=red&style=flat-square)
