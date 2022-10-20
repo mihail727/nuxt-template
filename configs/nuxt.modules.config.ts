@@ -1,10 +1,15 @@
-import type { NuxtConfig } from 'nuxt';
+import type { NuxtConfig } from 'nuxt/config';
 
 export default {
-	modules: ['@nuxtjs/tailwindcss', '@vueuse/nuxt'],
-	tailwindcss: {
-		configPath: '~~/tailwind.config.js',
-		viewer: false,
-		cssPath: '../src/assets/scss/tailwind.scss',
+	modules: ['@vueuse/nuxt'],
+	css: ['normalize.css', '~/assets/scss/main.scss'],
+	vite: {
+		css: {
+			preprocessorOptions: {
+				scss: {
+					additionalData: `@import "~/assets/scss/variables";`,
+				},
+			},
+		},
 	},
 } as NuxtConfig;
