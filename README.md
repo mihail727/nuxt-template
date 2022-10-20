@@ -11,7 +11,6 @@
 
 ### 🧾 Dependencies
 
-![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/mihail727/nuxt-template/dev/@nuxtjs/tailwindcss?style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/mihail727/nuxt-template/dev/@tailwindcss/forms?style=flat-square) </br>
 ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/mihail727/nuxt-template/dev/@vueuse/nuxt?color=green&style=flat-square) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/mihail727/nuxt-template/dev/@vueuse/core?color=green&style=flat-square) </br>
 ![GitHub package.json dependency version (prod)](https://img.shields.io/github/package-json/dependency-version/mihail727/nuxt-template/@heroicons/vue?color=purple&style=flat-square) </br>
 ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/mihail727/nuxt-template/dev/sass?color=magenta&style=flat-square)
